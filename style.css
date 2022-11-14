@@ -26,9 +26,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     height: 65px;
     padding: 0px 30px;
-    position: fixed;
     top: 0;
 
 }
@@ -63,7 +63,7 @@ header {
     font-weight: 600;
 }
 
-main {
+/*main {
     background: transparent    ;
     display: flex;
     flex-direction: column;
@@ -71,16 +71,15 @@ main {
     justify-content: center;
     color: white;
     width: 100%;
-}
+}*/
 
 #hero {
     margin-top: 80px;
     padding: 70px 0px;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
 }
 
 .hero-info {
@@ -91,6 +90,8 @@ main {
     background-color: grey;
     border-radius: 10px;
     padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
 
 
 }
